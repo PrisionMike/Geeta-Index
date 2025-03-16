@@ -1,0 +1,5 @@
+- [ ] Hindi keyboard
+- [ ] Setup MongoDB
+- [ ] Setup Django
+- [ ] Refactor existing markdowns to a separate folder
+- [ ] Script to translate md's to dbo
