@@ -1,5 +1,7 @@
 - [ ] Hindi keyboard
 - [ ] Setup MongoDB
+- [ ] db schema? json schema?
 - [ ] Setup Django
 - [ ] Refactor existing markdowns to a separate folder
+- [ ] Script to polish and parse md files
 - [ ] Script to translate md's to dbo
