@@ -6,6 +6,8 @@ Starting with Chapter 8: verse 4. Ideally it would be all in Hindi but I am bad 
 
 https://chatgpt.com/share/67d4740e-a830-8008-add2-7baccfddfda2
 
+https://chatgpt.com/share/67db667b-1cc8-8008-b4ff-b594a5a54101
+
 ## Table of Contents
 
 - [Paramatma-tatva](Paramatma-tatva.md)
