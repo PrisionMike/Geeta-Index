@@ -1,0 +1,4 @@
+exit
+db.dbo.insertOne({term: "Bhagwan", notes: "test"})
+use terms
+show dbs
