@@ -20,3 +20,25 @@ services:
       ME_CONFIG_BASICAUTH_PASSWORD: admin
       ME_CONFIG_MONGODB_URL: mongodb://root:example@mongo:27017/
       ME_CONFIG_BASICAUTH: FALSE
+
+  django:
+    image: python:3-slim  # Use official Python image
+    container_name: django-app
+    user: "1000:1000"  # Set user to current host user
+    restart: "no"
+    depends_on:
+      - mongodb
+    ports:
+      - 8000:8000
+      - 5678:5678
+    volumes:
+      - .:/app  # Mount local Django project
+    working_dir: /app
+    command: >
+      sh -c "pip install --upgrade pip &&
+              pip install -r requirements.txt &&
+              python ./jnankosha_server/manage.py migrate &&
+              python ./jnankosha_server/manage.py runserver"
+    environment:
+      - DJANGO_SETTINGS_MODULE=project.settings
+      - DATABASE_URL=mongodb://root:example@mongodb:27017/

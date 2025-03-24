@@ -1,10 +1,10 @@
 # Bhagvatsambandhi Kaarya
 
-It is of 2 types:
+इसके दो प्रकार हैं:
 
-- Swaroop
+- स्वरूप
   - With the nature of good. Remember his name, pray, worship, etc.
-- Bhaav
+- भाव
   - All work I do is a work of God.
 
 ## Defined at

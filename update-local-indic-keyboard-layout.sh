@@ -1,1 +1,0 @@
-cp ./hindi-kagapa-mapping-modified /usr/share/X11/xkb/symbols/in
