@@ -1,3 +1,4 @@
+Use trello: https://trello.com/b/37llrHWe/geeta-db-weekly
 - [x] Hindi keyboard
 - [x] Setup MongoDB
 - [ ] db schema? json schema?
@@ -6,7 +7,7 @@
 - [ ] Script to polish and parse md files
 - [ ] Script to translate md's to dbo
 - [ ] नवुद्धरण आलेख (.py or .sh)
-- [ ] सख्यां पट्टी mapping
+- [X] सख्यां पट्टी mapping
 - [ ] MD to XML. With XML Schema.
 - [ ] bash/zsh प्रदर्शन शोधन
 - [ ] बिदुं ठीक करें
