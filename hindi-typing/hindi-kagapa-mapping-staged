@@ -2014,7 +2014,7 @@ xkb_symbols "hin-kagapa" {
     key <AE10>  { [   U0966,            parenright,   0,  U0970  ] };  // U0970: Devanagari abbreviation sign
     key <AE11>  { [   minus,        underscore,   U0952          ] };  // U0952: Devanagari stress sign anudatta
     key <AE12>  { [   equal,        plus                         ] };
-    key <BKSL>  { [   backslash,    bar,          period,  greater  ] };  // backslash, pipe, danda, double danda
+    key <BKSL>  { [   backslash,    bar,          period,  U0965  ] };  // backslash, pipe, danda, double danda
 
     key <AD01>  { [   U091F,         U0920                       ] };  // Q: retroflex Ta, Tha
     key <AD02>  { [   U0921,         U0922,      U095C,  U095D   ] };  // W: retroflex Da, Dha, Da-nukta, Dha-nukta
@@ -2038,18 +2038,18 @@ xkb_symbols "hin-kagapa" {
     key <AC07>  { [   U091C,        U091D,     U095B             ] };  // J: ja, jha, ja-nukta
     key <AC08>  { [   U0915,        U0916,     U0958,    U0959   ] };  // K: ka, kha, ka-nukta, kha-nukta
     key <AC09>  { [   U0932,        U0933,     U0962,    U090C   ] };  // L: la, lla, vocalic L matra, vocalic L
-    key <AC10>  { [   semicolon,    colon,     U1CF2,    U1CF3   ] };  // U1CF2/3: ardhavisarga/rotated ardhavisarga
-    key <AC11>  { [   apostrophe,   quotedbl,  U0951,    U201D   ] };  // U0951: Devanagari stress sign udatta
+    key <AC10>  { [   U0905,    colon,     U1CF2,    U1CF3   ] };  // U1CF2/3: ardhavisarga/rotated ardhavisarga
+    key <AC11>  { [   U0902,   quotedbl,  U0951,    U201D   ] };  // U0951: Devanagari stress sign udatta
                                                                        // U201D: Right double quotation mark
-    key <AB01>  { [   U091E,   U0919                   ] };  // Z: nya, nga
+    key <AB01>  { [   U091E,   semicolon                   ] };  // Z: nya, nga
     key <AB02>  { [   U0937,   U093C,  U0934           ] };  // X: ssa, nukta below, lla-nukta
     key <AB03>  { [   U091A,   U091B                   ] };  // C: ca, cha
     key <AB04>  { [   U0935,   U094C,  U0914           ] };  // V: va, matra au, au
     key <AB05>  { [   U092C,   U092D                   ] };  // B: ba, bha
     key <AB06>  { [   U0928,   U0923,  U0929           ] };  // N: na, nna, nnna
-    key <AB07>  { [   U092E,   U0902,  U093D,  U0950   ] };  // M: ma, anusvara, avagraha, Devanagari OM
+    key <AB07>  { [   U092E,   apostrophe,  U093D,  U0950   ] };  // M: ma, anusvara, avagraha, Devanagari OM
     key <AB08>  { [   comma,   less,   U0945,  U090D   ] };  // ,: matra, candra e
-    key <AB09>  { [   U0964,  U0965, U0949,  U0911   ] };  // .: matra, candra o
+    key <AB09>  { [   U0964,  greater, U0949,  U0911   ] };  // .: matra, candra o
     key <AB10>  { [   slash,   question                ] };
 
     include "level3(ralt_switch)"
